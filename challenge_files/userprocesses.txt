@@ -1,0 +1,11 @@
+root       556  0.0  0.6  63876  3460 ?        Ss   00:00   0:00 sshd: cabox [priv]  
+root       557  0.0  0.6  63876  3460 ?        Ss   00:00   0:00 sshd: cabox [priv]  
+root       560  0.0  0.6  63876  3460 ?        Ss   00:00   0:00 sshd: cabox [priv]  
+cabox      562  0.0  0.2  63876  1472 ?        S    00:00   0:00 sshd: cabox@pts/0   
+cabox      563  0.0  0.2  63876  1472 ?        S    00:00   0:00 sshd: cabox@pts/1   
+cabox      564  0.0  0.2  63876  1472 ?        S    00:00   0:00 sshd: cabox@pts/2   
+cabox      565  0.0  0.3  18124  2008 pts/0    Ss+  00:00   0:00 -bash
+cabox      575  0.0  0.3  18124  2012 pts/1    Ss+  00:00   0:00 -bash
+cabox      585  0.0  0.4  18196  2104 pts/2    Ss   00:00   0:00 -bash
+cabox      629  0.0  0.2  15520  1148 pts/2    R+   00:19   0:00 ps aux
+cabox      630  0.0  0.1   8816   744 pts/2    S+   00:19   0:00 grep --color=auto cabox
