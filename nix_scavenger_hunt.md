@@ -23,7 +23,7 @@ and then clone it to your development environment.
     LICENSE  README.md  challenge_files  nix_scavenger_hunt.md  nix_scavenger_hunt_stretch.md
 * You can use *options* to modify how a command runs. Try using `ls -alh` to see the contents of your current directory. 
   *How are the results different when you use the `-alh` options?*
-  This adds additional details for the files. The command displays all files and the long format listing
+  This adds additional details for the files. The command displays all files and the long format listing 
   
 * The `man` ("manual") command tells you more about how any given command works. (*WARNING:* CodeAnywhere does not support the man command. You can click the following link to complete this task: http://linux.die.net/man/)Run `man` to see instructions about how to use `man`. 
 Then use `man` to learn what the `a`, `l`, and `h` options mean when used with the `ls` command. *Write down what those options do?*
@@ -35,6 +35,7 @@ boot  etc  home      lib64  mnt    proc  run   srv   tmp  var
 * A Unix filesystem has a few special shortcuts to refer to specific locations. `/` indicates the *root* of the filesystem, meaning the top-most directory in the filesystem hierarchy. Use the `cd` ("change directory") command to move to the root directory. (Hint: Use `man` to look up the `cd` command if you have any issues) *Then run `pwd` and paste the output here:*
 
 I set the pwd to the / and get / as the pwd
+
 * Another special shortcut in Unix is the `~` location. This indicates the *user root* directory, meaning the top-most directory in the hierarchy that comes below your user account. Use `cd` to move to `~`. *Run `pwd` and paste the response here:*
 I get /home/cabox I had to run the ls to get the workspace directory and then change to the workspace/challenge_files
 
